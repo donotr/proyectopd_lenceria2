@@ -14,7 +14,7 @@ class GridButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return SizedBox(
       height: 400,
       child: GridView.builder(
           physics: const AlwaysScrollableScrollPhysics(),
