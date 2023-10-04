@@ -22,7 +22,16 @@ class ShowRecipe extends StatelessWidget {
       body: Center(
         child: ListView(
           children: [
-            Image.asset(carouselImages.image),
+            const Padding(padding: EdgeInsets.all(10)),
+            Column(
+              children: [
+              //clipRRect funciona mas que todo solo en columns
+                ClipRRect(
+                  borderRadius: BorderRadius.circular(30.0),
+                  child: Image.asset(carouselImages.image),
+                ),
+              ],
+            ),
             Padding(
               padding: const EdgeInsets.all(10),
               child: Row(
