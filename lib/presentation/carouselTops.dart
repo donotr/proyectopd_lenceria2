@@ -17,6 +17,7 @@ class CarruselViewTops extends StatelessWidget {
         CarouselSlider.builder(
           itemCount: carouselImagesTops.length,
           itemBuilder: ((context, index, realIndex) {
+            //Dice que no se usa pero si se usa, NO TOCAR
             final carouselImageTops = carouselImagesTops[index];
             return CardImages(
               carouselImages: carouselImagesTops[index],

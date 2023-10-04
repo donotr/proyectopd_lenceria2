@@ -17,6 +17,7 @@ class CarruselViewPops extends StatelessWidget {
         CarouselSlider.builder(
           itemCount: carouselImagesPopular.length,
           itemBuilder: ((context, index, realIndex) {
+            //Dice que no se usa pero si se usa, NO TOCAR
             final carouselImagePopular = carouselImagesPopular[index];
             return CardImages(
               carouselImages: carouselImagesPopular[index],
