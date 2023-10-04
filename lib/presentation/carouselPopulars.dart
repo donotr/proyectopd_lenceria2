@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:proyecto_lenceria/data/data_carousel_pop.dart';
 import 'package:proyecto_lenceria/models/carouselpop_model.dart';
-import 'package:proyecto_lenceria/presentation/show_recipe_pop.dart';
+import 'package:proyecto_lenceria/presentation/show_carousel_pop.dart';
 
 class CarruselViewPops extends StatelessWidget {
   const CarruselViewPops({super.key});
@@ -53,7 +53,7 @@ class CardImages extends StatelessWidget {
                 context, MaterialPageRoute(builder: (context) => ShowRecipe(carouselImages: carouselImages,)));
           },
           child: FadeInImage(
-            placeholder: AssetImage("assets/images/34.jpeg"),
+            placeholder: const AssetImage("assets/images/34.jpeg"),
             image: AssetImage(carouselImages.image),
             fit: BoxFit.cover,
           ),
