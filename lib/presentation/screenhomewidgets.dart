@@ -71,7 +71,7 @@ class _ScreenHomeState extends State<ScreenHome> {
 
           //GRIDBUTTON QUE MUESTRA LAS CATEGORIAS
 
-          GridButton(),
+          const GridButton(),
         ],
       ),
     );
