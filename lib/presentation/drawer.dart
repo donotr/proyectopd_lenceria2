@@ -7,17 +7,23 @@ class DrawerWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Drawer(child:Container(
       color: Colors.purple.shade100,
-      child: const Column(children: [
-        //EMPEZAR A CREAR CONTENIDO EN EL DRAWER
-            /*Container(
-                width: 100,
-                height: 100,
-                margin: const EdgeInsets.all(50),
-                child: Image.network(
-                    "https://yt3.googleusercontent.com/ytc/APkrFKY2i_XtwR1UNMHmZv7MGDvXAbPWjIe7Q8lmSi62=s176-c-k-c0x00ffffff-no-rj"),
-              )*/
-      ],)
-    ) ,);
+      padding: EdgeInsets.only(top: 60),
+      child:  Column(children: [
+        //EMPEZAR A CREAR CONTENIDO EN EL DRAWER      
+        SizedBox(          
+          width: 200,
+          height: 200,
+          child: FadeInImage.assetNetwork(
+            
+            placeholder: 'assets/images/loader4.gif',
+            image: 'https://cdn4.iconfinder.com/data/icons/music-ui-solid-24px/24/user_account_profile-2-256.png',
+            fit: BoxFit.cover,
+          ),
+        )
+      ],
+      ),
+    ),
+    );
     
     
   }
