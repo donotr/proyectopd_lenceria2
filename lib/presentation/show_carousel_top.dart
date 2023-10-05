@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:proyecto_lenceria/models/carouseltop_model.dart';
 
-class ShowRecipe extends StatelessWidget {
+class ShowCarouselTop extends StatelessWidget {
   final CarouselTops carouselImages;
-  const ShowRecipe({super.key, required this.carouselImages});
+  const ShowCarouselTop({super.key, required this.carouselImages});
 
   @override
   Widget build(BuildContext context) {

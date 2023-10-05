@@ -51,7 +51,7 @@ class CardImages extends StatelessWidget {
           onTap: () {
             carouselImages.copy();
             Navigator.push(
-                context, MaterialPageRoute(builder: (context) => ShowRecipe(carouselImages: carouselImages,)));
+                context, MaterialPageRoute(builder: (context) => ShowCarouselPop(carouselImages: carouselImages,)));
           },
           child: FadeInImage(
             placeholder: const AssetImage("assets/images/34.jpeg"),
