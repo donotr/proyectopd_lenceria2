@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:proyecto_lenceria/presentation/screenhomewidgets.dart';
+import 'package:proyecto_lenceria/presentation/screens/screenhomewidgets.dart';
 
 
 void main() {
@@ -23,5 +23,4 @@ class _SearchBarAppState extends State<MyApp> {
     );
   }
 }
-
 

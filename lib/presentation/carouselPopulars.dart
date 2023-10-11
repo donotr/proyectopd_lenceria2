@@ -54,7 +54,7 @@ class CardImages extends StatelessWidget {
                 context, MaterialPageRoute(builder: (context) => ShowCarouselPop(carouselImages: carouselImages,)));
           },
           child: FadeInImage(
-            placeholder: const AssetImage("assets/images/34.jpeg"),
+            placeholder: const AssetImage("assets/images/loader4.gif"),
             image: AssetImage(carouselImages.image),
             fit: BoxFit.cover,
           ),
